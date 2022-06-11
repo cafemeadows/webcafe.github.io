@@ -1,0 +1,255 @@
+body
+{
+	background-image:url(../Images/light_faded.jpg);
+	background-size:cover;
+}
+
+a { text-decoration:none; 
+	color:#000; }
+	
+header
+{
+	background-color:#101010;
+    color:#9d9d9d;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;
+	opacity:0.9;
+	height:43px;
+}
+
+footer{
+    background-color:#101010;
+    color:#9d9d9d;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;    
+    bottom:0;
+}
+
+.tc
+{
+	background-color:#333;
+    color:#9d9d9d;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;
+	width:98.5%;
+	height:60px;
+}
+
+.inbtn
+{
+	text-decoration:none;
+	color:#9d9d9d;
+}
+
+.inbtn:hover
+{
+	color:#FFF;
+}
+
+.slider
+{
+	/*clear:both;*/
+	height:400px;
+	width:50%;
+	float:left;
+}
+
+.slider embed
+{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.lab
+{
+	background-color:#CC9900;
+	border-radius:6px;
+	font-family:Arial;
+	font-weight:bold;
+	text-align:center;
+	font-size:18px;
+	padding:10px;
+	transition:ease-in-out 1.3s;
+}
+
+.lab:hover
+{
+	background-color:#000;
+	color:#FFF;
+	opacity:0.9;
+}
+
+.log1
+{
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+	margin: auto;
+	width: 400px;
+	padding:10px;
+}
+
+.logform
+{
+	border-radius:6px;
+	border:solid grey 1px;
+	font-size:16px;
+	padding:10px;
+	margin: auto;
+	width:90%;
+}
+
+.btn1
+{
+	background-color:#CC9900;
+	color:#000;
+	width:100px;
+	padding:10px;
+	font-weight:bold;
+	border-radius:6px;
+	border:solid grey 1px;
+	transition:ease-in-out 1.5s;
+}
+
+.btn1:hover
+{
+	background-color:#333;
+	color:#FFF;
+}
+
+.btn2
+{
+	background-color:#F60;
+	color:#000;
+	width:100px;
+	padding:10px;
+	font-weight:bold;
+	border-radius:6px;
+	border:solid grey 1px;
+	transition:ease-in-out 0.5s;
+}
+
+.btn2:hover
+{
+	background-color:#F00;
+	color:#FFF;
+}
+
+.pro
+{
+	color:#036;
+	font-size:25px;
+	font-weight:bold;
+	text-shadow:6px 3px 3px #CCC;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+
+.mlogo
+{
+	height:100px;
+	width:100px;
+	border-radius:9px;
+	transition:ease-in-out 0.5s;
+	opacity:0.5;
+}
+
+.mlogo:hover
+{
+	border-color:#000;
+	border:1px solid #000;
+	opacity:1;
+}
+
+.cnt
+{
+	border:3px solid #900; 
+	border-radius:9px; 
+	width:50%; 
+	height:auto;
+}
+
+.Atyp
+{
+	width:10px;
+	height:20px;
+	background-color:#000;
+	border:1px solid #666;
+	padding:10px;
+	border-radius: 15px 15px 0px 0px;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Ptyp
+{
+	width:10px;
+	height:20px;
+	background-color:#999;
+	border:1px solid #666;
+	padding:9px;
+	border-radius: 15px 15px 0px 0px;
+	color:#000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Ptyp:hover
+{
+	background-color:#000;
+	padding:10px;
+	color:#FFF;
+}
+/* drop down menu */
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
